@@ -1,0 +1,1318 @@
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.2s linear;
+    top: 0px;
+}
+
+.svg {
+    width: 2%;
+    margin-left: 4%;
+
+}
+
+.svg1 {
+    width: 2%;
+    margin-left: 5.5%;
+}
+
+.svg2 {
+    width: 2%;
+    margin-left: 6.5%;
+}
+
+.svg3 {
+    width: 2%;
+    margin-left: 7.5%;
+}
+
+.nofixed {
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}
+
+.img {
+    width: 38px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.searchbar {
+    width: 100%;
+    max-width: 320px;
+    max-height: 45px;
+    background: rgb(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-left: 1%;
+}
+
+.searchbar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 18px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.searchbar button img {
+    width: 20px;
+    height: 4px;
+
+}
+
+.searchbar button img {
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+#id {
+    padding-left: 1260%;
+}
+
+.img1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+
+.p1 {
+    font-size: 15px;
+    color: white;
+    margin-top: 2.5%;
+    margin-left: -2.5rem;
+
+}
+
+mat-icon {
+    color: white
+}
+
+@media only screen and (max-width: 360px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 15px;
+        margin-top: -2%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 210px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 2%;
+        margin-right: 13%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 12px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -22%;
+        font-size: 11.5px;
+
+    }
+
+    .p1 {
+        font-size: 10px;
+        color: white;
+        margin-top: -6%;
+        text-align: center;
+        margin-left: 80%;
+    }
+
+    .img1 {
+        width: 25px;
+        height: 27px;
+        margin-left: 80%;
+        margin-top: -20%;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 65px;
+        z-index: 1;
+        top: 10%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 8px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -512%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+        font-size: 4px;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -90%;
+        font-size: 12px;
+    }
+
+    #a1 {
+        margin-left: -1%;
+    }
+
+    #a2 {
+        margin-left: -4.9%;
+    }
+
+    #a3 {
+        margin-left: -3.9%;
+    }
+
+    #a4 {
+        margin-left: -3.5%;
+    }
+}
+
+@media only screen and (min-width: 361px)and (max-width: 484px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 15px;
+        margin-top: -2%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 210px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: -1.3%;
+        margin-right: 23%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 12px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -58%;
+        font-size: 13.5px;
+
+    }
+
+    .p1 {
+        font-size: 10px;
+        color: white;
+        margin-top: -5%;
+        text-align: center;
+        margin-left: 73%;
+    }
+
+    .img1 {
+        width: 25px;
+        height: 27px;
+        margin-left: 73%;
+        margin-top: -17%;
+    }
+}
+
+@media only screen and (min-width: 485px)and (max-width: 516px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 230px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 13.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -62%;
+        font-size: 14.5px;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: -3%;
+        text-align: center;
+        margin-left: 67%;
+    }
+
+    .img1 {
+        width: 35px;
+        height: 32px;
+        margin-left: 68%;
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (min-width: 517px)and (max-width: 564px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 230px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 13.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -62%;
+        font-size: 16.5px;
+        margin-top: 5%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: -3%;
+        text-align: center;
+        margin-left: 67%;
+    }
+
+    .img1 {
+        width: 35px;
+        height: 32px;
+        margin-left: 68%;
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (min-width: 565px)and (max-width: 650px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 230px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 13.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -31%;
+        font-size: 16.5px;
+        margin-top: -3%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -8%;
+    }
+
+    .img1 {
+        width: 32px;
+        height: 30px;
+        margin-left: -32%;
+        margin-top: -6%;
+    }
+}
+
+@media only screen and (min-width: 651px)and (max-width: 750px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 370px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 14.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -60%;
+        font-size: 16.5px;
+        margin-top: 13%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -6%;
+    }
+
+    .img1 {
+        width: 32px;
+        height: 30px;
+        margin-left: -30%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 751px)and (max-width: 850px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 370px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 14.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -60%;
+        font-size: 16.5px;
+        margin-top: 13%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -6%;
+    }
+
+    .img1 {
+        width: 32px;
+        height: 30px;
+        margin-left: -30%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 851px)and (max-width: 930px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 370px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 14.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -60%;
+        font-size: 16.5px;
+        margin-top: 13%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -6%;
+    }
+
+    .img1 {
+        width: 32px;
+        height: 30px;
+        margin-left: -30%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (max-width: 931px)and (min-width: 1030px) {
+    .img {
+        width: 34px;
+        height: 38px;
+        margin-left: 18px;
+        margin-top: 0%;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 370px;
+        max-height: 38px;
+        background: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+        margin-top: 0.3%;
+        margin-right: 33%;
+    }
+
+    .searchbar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 14.5px;
+        color: #cac7ff;
+        padding-left: 0%;
+    }
+
+    ::placeholder {
+        color: #cac7ff;
+    }
+
+    .searchbar button img {
+        width: 20px;
+        height: 4px;
+    }
+
+    .searchbar button img {
+        border: 0;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #58629b;
+        cursor: pointer;
+        padding: 0%;
+    }
+
+    #id {
+        padding-left: 0%;
+        margin-left: -60%;
+        font-size: 16.5px;
+        margin-top: 13%;
+
+    }
+
+    .p1 {
+        font-size: 13px;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -56%;
+    }
+
+    .img1 {
+        width: 32px;
+        height: 30px;
+        margin-left: 10%;
+        margin-top: -4%;
+    }
+}
+
+/* home css*/
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 380px;
+    position: fixed;
+    z-index: 1;
+    top: 11.5%;
+    left: 0;
+    background-color: #DADDE1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 16px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+
+}
+
+.img {
+    height: 37px;
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+.limitTextHeight {
+    height: 20px;
+    overflow: hidden;
+}
+
+.btn {
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+
+@media only screen and (min-width: 361px)and (max-width: 484px) {
+    .sidenav {
+        height: 100%;
+        width: 85px;
+        z-index: 1;
+        top: 11.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 11px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -129%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+        font-size: 4px;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -90%;
+        font-size: 12px;
+    }
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -65%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 485px)and (max-width: 516px) {
+    .sidenav {
+        height: 100%;
+        width: 130px;
+        z-index: 1;
+        top: 11.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -29%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -18%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 517px)and (max-width: 564px) {
+    .sidenav {
+        height: 100%;
+        width: 130px;
+        z-index: 1;
+        top: 11.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -29%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -18%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 565px)and (max-width: 650px) {
+    .sidenav {
+        height: 100%;
+        width: 177px;
+        z-index: 1;
+        top: 11.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -1%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -2%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 651px)and (max-width: 750px) {
+    .sidenav {
+        height: 100%;
+        width: 203px;
+        z-index: 1;
+        top: 11.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -1%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: -2%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 751px)and (max-width: 850px) {
+    .sidenav {
+        height: 100%;
+        width: 228px;
+        z-index: 1;
+        top: 13%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 16.2px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: -1%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: 4%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 851px)and (max-width: 930px) {
+    .sidenav {
+        height: 100%;
+        width: 250px;
+        z-index: 1;
+        top: 13.8%;
+        left: 0;
+        background-color: #DADDE1;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 16px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 16.2px;
+        color: black;
+        display: block;
+
+    }
+
+    .img {
+        height: 37px;
+        margin-left: 14%;
+        width: 20px;
+    }
+
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    .limitTextHeight {
+        height: 20px;
+        overflow: hidden;
+    }
+
+
+
+    #a1 {
+        margin-left: -4%;
+    }
+
+    #a2 {
+        margin-left: -12%;
+    }
+
+    #a3 {
+        margin-left: -11%;
+    }
+
+    #a4 {
+        margin-left: -11%;
+
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: 12%;
+        font-size: 17.5px;
+    }
+}

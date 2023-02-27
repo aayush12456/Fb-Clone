@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'"
+    *ngIf="UserisAuthenticated">
+    <img class="img"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png">
+    <form action="" class="searchbar">
+        <input type="text" autocomplete="off" placeholder="search facebook" name="q">
+        <button type="submit"><img src="/images/—Pngtree—search bar_4463406.png"></button>
+    </form>
+    <ul class="navbar-nav">
+        <li class="nav-item active" id="id">
+            <a class="nav-link" href="#" (click)="Logout()">Logout</a>
+        </li>
+        <li class="nav-item active" routerLink="/home">
+            <a class="nav-link"></a>
+        </li>
+    </ul>
+    <img src="https://freepngimg.com/thumb/home/1-2-home-png-image-thumb.png" class="svg">
+    <img src="https://img.icons8.com/material-outlined/344/video.png" class="svg1">
+    <img class="svg2"
+        src="https://img.icons8.com/external-sbts2018-solid-sbts2018/344/external-marketplace-social-media-sbts2018-solid-sbts2018.png">
+    <img src="https://img.icons8.com/ios-filled/344/crowd.png" class="svg3">
+
+    <img class="img1" src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png">
+    <p class="p1">Welcome</p>
+</nav>
+<router-outlet></router-outlet>
+
+
+<div class="sidenav" *ngIf="UserisAuthenticated">
+
+    <ul>
+        <li routerLink="/navbar">
+            <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png" class="img">Friends</a>
+        </li>
+        <a id="a1"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png" class="img">Memories</a>
+        <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png" class="img">Watch</a>
+        <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png" class="img">Groups</a>
+        <a id="a2"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" class="img">Marketplace</a>
+        <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" class="img">Saved</a>
+        <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/i7hepQ2OeZg.png" class="img">pages</a>
+        <button type="button" class="btn" (click)="showContent()" *ngIf="Disablecontent">show more</button>
+        <div *ngIf="Showcontent">
+            <a><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/9-o1e6LN_TX.png" class="img">Events</a>
+            <a id="a3"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/FGO-FBo3R2E.png" class="img">Most
+                recent</a>
+            <a id="a4"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/YF1bztyGuX-.png" class="img">
+                Messenger</a>
+        </div>
+        <button type="button" class="btn" (click)="disableContent()" *ngIf="!Disablecontent">show less</button>
+    </ul>
+</div>
+<router-outlet></router-outlet>

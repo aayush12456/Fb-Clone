@@ -1,0 +1,338 @@
+mat-card {
+    margin-left: 47%;
+    float: none;
+    margin-bottom: 10px;
+    min-width: 150px;
+    max-width: 450px;
+    margin-top: 9%;
+}
+
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 6vh;
+    background-color: #157DEC;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p1 {
+    text-align: center;
+    color: #1589FF;
+    padding-top: 3%;
+
+}
+
+.btn1 {
+    width: 60%;
+    height: 6.5vh;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 21%;
+}
+
+.p2 {
+    color: #157DEC;
+    font-size: 42px;
+    font-weight: bold;
+    padding-left: 16%;
+    position: relative;
+    top: -48%;
+    float: none;
+}
+
+.p3 {
+    color: black;
+    font-size: 30px;
+    padding-left: 16%;
+    position: relative;
+    top: -45%;
+    float: none;
+}
+
+@media only screen and (max-width: 360px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 15px;
+        padding-left: 7%;
+        position: absolute;
+        top: 14%;
+        float: none;
+    }
+
+    .p {
+        font-size: 6px;
+    }
+
+    mat-card {
+        margin-left: 0%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 450px;
+        float: none;
+        margin-top: 35%;
+    }
+
+}
+
+@media only screen and (min-width: 361px)and (max-width: 484px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 15px;
+        padding-left: 7%;
+        position: absolute;
+        top: 14%;
+        float: none;
+    }
+
+    .p {
+        font-size: 6px;
+    }
+
+    mat-card {
+        margin-left: 0%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 450px;
+        float: none;
+        margin-top: 35%;
+    }
+}
+
+@media only screen and (min-width: 485px)and (max-width: 516px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 0%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 517px)and (max-width: 564px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 3%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 29%;
+    }
+}
+
+@media only screen and (min-width: 565px)and (max-width: 650px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 7%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 29%;
+    }
+}
+
+@media only screen and (min-width: 651px)and (max-width: 750px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 14%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 29%;
+    }
+}
+
+@media only screen and (min-width: 751px)and (max-width: 850px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 18%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 851px)and (max-width: 930px) {
+    .p2 {
+        color: #157DEC;
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 7%;
+        position: absolute;
+        top: 10%;
+        float: none;
+    }
+
+    .p3 {
+        color: black;
+        font-size: 23px;
+        padding-left: 7%;
+        position: absolute;
+        top: 17%;
+        float: none;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    mat-card {
+        margin-left: 33%;
+        margin-bottom: 10px;
+        min-width: 150px;
+        max-width: 485px;
+        float: none;
+        margin-top: 14%;
+    }
+}

@@ -1,0 +1,21 @@
+<mat-card>
+    <form class="example-form" autocomplete="off" (submit)="onLogin(loginForm)" #loginForm="ngForm">
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Email address or phone number" name="emailorphone" type="email" ngModel
+                required emailornumber #emailornumberInput="ngModel">
+            <mat-error *ngIf="emailornumberInput.invalid">please enter email or number</mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Password" type="password" name="password" ngModel required password
+                #passwordInput="ngModel">
+            <mat-error *ngIf="passwordInput.invalid">please enter password</mat-error>
+        </mat-form-field>
+        <button class="btn" mat-stroked-button color="primary">Log In</button>
+        <p class="p1">Forgotten password?</p>
+        <p style="color:#D1D0CE ; text-align: center;" class="p">____________________________________________________
+        </p>
+        <a class="btn1" mat-stroked-button color="green" (click)="openDialog()">Create New Account</a>
+    </form>
+</mat-card>
+<p class="p2">facebook</p>
+<p class="p3">Recent Logins</p>

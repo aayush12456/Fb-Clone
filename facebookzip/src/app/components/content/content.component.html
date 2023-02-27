@@ -1,0 +1,9 @@
+<p class="p1">Create post</p>
+<form class="example-form" (submit)="onSubmit(submitForm)" #submitForm="ngForm">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <textarea matInput placeholder="What's on your mind" ngModel required name="content"
+            #content="ngModel"></textarea>
+        <mat-error *ngIf="content.invalid">please enter content</mat-error>
+    </mat-form-field>
+    <button mat-stroked-button color="accent" class="btn" [disabled]="submitForm.invalid">Post</button>
+</form>
